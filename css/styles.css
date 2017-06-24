@@ -1,0 +1,32 @@
+/*Header*/
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+/*
+.jumbotron .titulo-blog{
+	font-size: 80px;
+}
+*/
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #dcd507;
+}
+
+.navbar-inverse {
+    background-color: #42fb8c;
+    border-color: #42fb8c;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #dc9a07;
+}
+
+.jumbotron {
+	background-color: #10a4dc;
+	color:#ffffff;
+	padding: 20px 0;
+}
