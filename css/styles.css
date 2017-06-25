@@ -60,3 +60,13 @@
 .post .contenedor-botones{
     width: 100%;
 }
+
+/*Media Query*/
+
+ @media screen and (max-width: 768px){
+    .post .thumb{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+ }

@@ -19,7 +19,7 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 			      	</button>
-			      	<a href="#" class="navbar-brand">MiBlog</a>
+			      	<a href="#" class="navbar-brand">JCAF</a>
 				</div>
 
 				<!-- Inicia Menu -->
@@ -27,21 +27,21 @@
 				<div class="collapse navbar-collapse" id="navbar-principal">
 					<!-- ul.nav.navbar-nav>li*4>a[href="#"]{Item $} -->
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Item 1</a></li>
+						<li class="active"><a href="#">Inicio</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
 								Categorias <span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu" role="menu">
 								<!--li*3>a[href="#"]{Categoria $}-->
-								<li><a href="#">Categoria 1</a></li>
+								<li><a href="#">Django</a></li>
 								<li class="divider"></li>
-								<li><a href="#">Categoria 2</a></li>
-								<li><a href="#">Categoria 3</a></li>
+								<li><a href="#">Bootstrap</a></li>
+								<li><a href="#">Angular.js</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Inicio</a></li>
-						<li><a href="#">Blog</a></li>
+						<li><a href="#">Who am I?</a></li>
+						<li><a href="#">Proyectos</a></li>
 						<li><a href="#">Contacto</a></li>
 					</ul>
 
@@ -166,10 +166,55 @@
 					</div>
 				</nav>
 			</section>
+			<aside class="col-md-3 hidden-xs hidden-sm">
+				<h4>Categorias</h4>
+				<div class="list-group">
+					<a href="#" class="list-group-item active">Java</a>
+					<a href="#" class="list-group-item ">Python</a>
+					<a href="#" class="list-group-item ">Django</a>
+					<a href="#" class="list-group-item ">JQuery</a>
+					<a href="#" class="list-group-item ">CSS3</a>
+					<a href="#" class="list-group-item ">Angular.js</a>
+				</div>
+
+				<h4>Articulos Recientes</h4>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Como hacer peticiones AJAX en Django</h4>
+					<p class="list-group-item-text">Solucion al problema del CSRF token middleware para Django</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Como hacer un modal con JQuery</h4>
+					<p class="list-group-item-text">Hacer una ventana emergente para mostrar imagenes de una web</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Mis pensamientos acerca de Bootstrap 4</h4>
+					<p class="list-group-item-text">Las nuevas features de Bootstrap 4 prometen y en serio</p>
+				</a>
+			</aside>
 		</div>
 	</section>
+
+	
 	<!-- Aqui va el footer -->
-	<footer></footer>
+	<footer>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6">
+						<p>Made by JCAF Jesus Cristian Aleman Fuentes for Ord3n S.A de C.V &copy; </p>
+					</div>
+			
+					<div class="col-xs-6">
+						<ul class="list-inline text-right">
+							<li><a href="#">Hackatones</a></li>
+							<li><a href="#">MeetUps</a></li>
+							<li><a href="#">Conferencias</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</footer>
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
